@@ -10,7 +10,7 @@
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Generation of uniform random variable in [0,1]
 N=10000; % Number of values
-X=rand(1,N);
+X=randn(1,N);
 
 % PDF
 NN=10; % Number of cells
